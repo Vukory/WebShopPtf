@@ -1,0 +1,122 @@
+input, textarea {
+    width: 15em;
+    margin-left: 1.5em !important;
+}
+
+.polka-dot {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ececec' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.blue-btn, .orange-btn, .pink-btn {
+    border: none !important;
+    width: 50%;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+}
+
+.blue-btn {
+    background-color: #61b0e8 !important;
+}
+
+.orange-btn {
+    background-color: #f7ce74 !important;
+}
+
+.pink-btn{
+    background-color: #f3acb8 !important;
+}
+
+.product-container {
+    margin-bottom: 1em;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    margin-bottom: 1em;
+}
+
+.blue {
+    color: #61b0e8 !important;
+}
+
+.pink {
+    color: #f3acb8 !important;
+}
+
+.error {
+    color: #e86161 !important;
+    font-weight: bold;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+}
+
+.heading, .cursive {
+    font-family: 'Pacifico', cursive;
+    color: #993c00;
+
+}
+
+.heading{
+    font-size: 5em;
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+.ad, .heading-p{
+    color: #993c00;
+}
+
+.ad{
+    font-size: 2em;
+}
+
+.pointer-hover:hover{
+    cursor: pointer;
+}
+
+.link:hover .bi-plus-circle,.bi-plus-circle:hover .bi-plus-circle{
+    fill: #f3acb8 !important;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+.contact a{
+    margin: 0 0.3em 0 0.3em;
+    color: #9dc7ff;
+}
+
+.contact a:hover{
+    color: #114858;
+}
+
+.icon-cart:hover{
+    fill: #f3acb8 !important;
+}
